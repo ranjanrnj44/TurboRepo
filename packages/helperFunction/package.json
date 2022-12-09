@@ -1,0 +1,21 @@
+{
+  "name": "helperfunction",
+  "version": "2.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"HelperFunction tests\"",
+    "build": "tsup src/index.ts --format cjs --dts",
+    "dev": "npm run build --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.9.3"
+  },
+  "devDependencies": {
+    "tsup": "^6.5.0"
+  }
+}

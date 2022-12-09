@@ -1,0 +1,48 @@
+/* nav */
+.nav_wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: darkblue;
+    font-weight: 700;
+    color: white;
+  }
+  .nav_wrapper > .nav_ulist{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    cursor: pointer;
+  }
+  .nav_ulist li{
+    margin-right: 2rem;
+  }
+  .nav_ulist li:hover{
+    color: black;
+  }
+
+  /* mainContent */
+  .mainContent {
+    background-color: blanchedalmond;
+    padding: 1rem;
+    border-radius: 0.2rem;
+    height: 90vh;
+  }
+  
+  /*para*/
+  .para{
+    font-size: 1.3rem;
+  }
+
+  /*card*/
+  .card_one{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .card{
+    background-color: steelblue;
+    margin: 0.5rem;
+    padding: 1rem;
+  }

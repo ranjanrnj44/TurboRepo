@@ -1,10 +1,12 @@
-import { Button } from "ui";
+//css
+import 'bootstrap/dist/css/bootstrap.css';
+// import { Button } from "ui";
+import Landing from "./landing";
 
 export default function Docs() {
   return (
     <div>
-      <h1>Docs</h1>
-      <Button />
+      <Landing />
     </div>
   );
 }

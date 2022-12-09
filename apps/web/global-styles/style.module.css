@@ -1,0 +1,57 @@
+/* nav */
+.nav_wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: crimson;
+    font-weight: 700;
+  }
+  .nav_wrapper > .nav_ulist{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    cursor: pointer;
+  }
+  .nav_ulist li{
+    margin-right: 2rem;
+  }
+  .nav_ulist li:hover{
+    color: black;
+  }
+
+  /* mainContent */
+  .mainContent {
+    background-color: royalblue;
+    padding: 1rem;
+    border-radius: 0.2rem;
+    height: 70.5rem;
+  }
+  
+  /*buttons*/
+  /* .button{
+    background-color: #0b63aa;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+    font-weight: bold;
+  }
+   */
+  /*para*/
+  .para{
+    font-size: 1.3rem;
+  }
+
+  /*card*/
+  .card_one{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .card{
+    background-color: steelblue;
+    margin: 0.5rem;
+    padding: 1rem;
+    flex-grow: 1;
+  }
