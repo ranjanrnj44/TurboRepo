@@ -21,7 +21,7 @@ const Landing = () => {
     <>
       <div className={styles.nav_wrapper}>
         <div className={styles.nav_heading}>
-          <h1>Monorepo...</h1>
+          <h1>Monorepos</h1>
         </div>
         <ul className={styles.nav_ulist}>
           <li>Phone</li>
