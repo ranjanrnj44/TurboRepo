@@ -11,7 +11,7 @@ const Landing = () => {
     <>
       <div className={styles.nav_wrapper}>
         <div className={styles.nav_heading}>
-          <h1>TurboRepo 123</h1>
+          <h1>TurboRepo 123456</h1>
         </div>
         <ul className={styles.nav_ulist}>
           <li>Home</li>
