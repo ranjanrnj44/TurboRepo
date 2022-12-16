@@ -1,12 +1,6 @@
-{{!-- STATIC DATA --}}
-{{!- title : "Just a simple post"
-date : "2023-01-01T18:10:09.189Z"
-description : "This is the first post" --}}
-
-{{!-- DYNAMIC --}}
----
-title : {{title}}
-date : {{date}}
-description : {{description}}
----
-{{!-- fake data to just check --}}
+let obj = {
+title : '{{title}}',
+date : {{date}},
+description : '{{description}}'
+}
+export default obj;

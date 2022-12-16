@@ -19,9 +19,9 @@ const plopConfig = (plop) => {
       {
         type: "add",
         // path: "packages/examplePlop/index.md", -- static, below is dynamic
-        path: "packages/{{title}}/index.md",
+        path: "packages/{{title}}/index.js",
         templateFile: "templates/postMsg.hbs",
-        data: { date: new Date().toISOString() },
+        data: { date: new Date().toLocaleDateString() },
       },
     ],
   });
